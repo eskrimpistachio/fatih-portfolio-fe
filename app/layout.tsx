@@ -11,8 +11,8 @@ const Footer = dynamic(() => import('./components/Footer'), {
 });
 
 export const metadata: Metadata = {
-  title: 'Fatih Portofolio',
-  description: 'This is Fatih Portofolio',
+  title: 'Fatih Portfolio',
+  description: 'This is Fatih Portfolio',
 };
 
 export default function RootLayout({

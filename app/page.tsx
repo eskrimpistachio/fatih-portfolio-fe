@@ -6,17 +6,17 @@ const About = dynamic(() => import('./components/About'), {
   ssr: false,
 });
 
-const MyWork = dynamic(()=>import('./components/MyWork'),{
-  ssr : false,
-})
+const MyWork = dynamic(() => import('./components/MyWork'), {
+  ssr: false,
+});
 
-const Exp = dynamic(()=>import('./components/Experience'),{
-  ssr : false,
-})
+const Exp = dynamic(() => import('./components/Experience'), {
+  ssr: false,
+});
 
-const Contact = dynamic(()=>import('./components/Contact'),{
-  ssr : false,
-})
+const Contact = dynamic(() => import('./components/Contact'), {
+  ssr: false,
+});
 
 export default function Home() {
   return (
@@ -48,7 +48,7 @@ export default function Home() {
         <div className="satoshi text-7xl md:text-8xl flex flex-col font-bold gap-2">
           <h1 className="md:w-3/4">HELLO, MY NAME IS</h1>
           <div className="bg-[#FF7A00] p-1 font-normal w-1/2 md:w-1/3 playfair">
-            <h1>FATIH</h1>
+            <h1>FATIHs</h1>
           </div>
           <h1 className="text-6xl md:text-8xl">FULL STACK DEVELOPER</h1>
         </div>
@@ -62,7 +62,10 @@ export default function Home() {
           alt="missing img"
         />
       </div>
-      <div id='about' className="flex flex-col gap-8 md:gap-0 md:flex-row py-16">
+      <div
+        id="about"
+        className="flex flex-col gap-8 md:gap-0 md:flex-row py-16"
+      >
         <div className="text-6xl md:w-[35%]">
           <h1 className="satoshi font-bold">ABOUT</h1>
           <h1 className="playfair">ME</h1>
@@ -70,8 +73,8 @@ export default function Home() {
         <About />
       </div>
       <MyWork />
-      <Exp/>
-      <Contact/>
+      <Exp />
+      <Contact />
     </>
   );
 }
