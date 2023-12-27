@@ -39,7 +39,7 @@ export default function RootLayout({
       <body className="mx-12 md:mx-16 satoshi">
         <Nav />
         <div className="my-16">{children}</div>
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

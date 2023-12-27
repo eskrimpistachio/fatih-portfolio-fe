@@ -36,11 +36,11 @@ export default function About() {
           {show ? (
             <>
               {text.map((t) => (
-                <p>{t}</p>
+                <p key={t.id}>{t}</p>
               ))}
               <div className="flex flex-col gap-8 md:gap-2">
                 {skills.map((s) => (
-                  <div className="flex flex-row text-left flex-wrap gap-2">
+                  <div key={s.id} className="flex flex-row text-left flex-wrap gap-2">
                     <h1 className="font-bold">{s.title} : </h1>
                     <p>{s.desc}</p>
                   </div>

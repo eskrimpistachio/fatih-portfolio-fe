@@ -43,7 +43,7 @@ export default function Home() {
               <FaArrowRight className="text-lg mt-1" />
             </a>
           </div>
-          <h6 className="playfair">"NICE TO MEET YOU"</h6>
+          <h6 className="playfair">&quot;NICE TO MEET YOU &quot;</h6>
         </div>
         <div className="satoshi text-7xl md:text-8xl flex flex-col font-bold gap-2">
           <h1 className="md:w-3/4">HELLO, MY NAME IS</h1>

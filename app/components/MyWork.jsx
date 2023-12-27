@@ -14,7 +14,7 @@ const data = [
     id: 2,
     img: '/homeinfusion.png',
     title: 'HOME INFUSION',
-    desc: "A medical service website that provides medical service calls to patient's homes.",
+    desc: 'A medical service website that provides medical service calls to patients homes.',
     techstack: 'Tech Stack: Next.js, Typescript, Tailwind CSS, Vercel',
     link: 'https://homeinfusionclinic.com/',
   },
@@ -42,7 +42,7 @@ export default function MyWork() {
     <>
       <div id="projects" className="py-16">
         <div className="flex flex-col-reverse md:flex-row gap-4 satoshi">
-          <p className="py-2 md:w-[10%]">More experience I've worked on</p>
+          <p className="py-2 md:w-[10%]">More experience I have worked on</p>
           <h1 className="font-bold text-7xl">
             MY <span className="playfair font-normal">PROJECTS</span>
           </h1>
@@ -68,7 +68,10 @@ export default function MyWork() {
                       {' '}
                       <p>{d.desc}</p>
                       <h6 className="font-bold">{d.techstack}</h6>
-                      <a className="flex flex-row playfair gap-2 hover:font-bold" href={d.link}>
+                      <a
+                        className="flex flex-row playfair gap-2 hover:font-bold"
+                        href={d.link}
+                      >
                         <h6>SEE DETAILS</h6>
                         <FaArrowRight className="text-lg" />
                       </a>
@@ -78,7 +81,10 @@ export default function MyWork() {
               </>
             ) : (
               <>
-                <div className="flex flex-col md:flex-row-reverse gap-8" key={d.id}>
+                <div
+                  className="flex flex-col md:flex-row-reverse gap-8"
+                  key={d.id}
+                >
                   <Image
                     src={d.img}
                     width={700}
@@ -92,10 +98,13 @@ export default function MyWork() {
                         {d.title}
                       </h1>
                     </div>
-                    <div className='flex flex-col gap-4'>
+                    <div className="flex flex-col gap-4">
                       <p>{d.desc}</p>
                       <h6 className="font-bold">{d.techstack}</h6>
-                      <a className="flex flex-row playfair gap-2 hover:font-bold" href={d.link}>
+                      <a
+                        className="flex flex-row playfair gap-2 hover:font-bold"
+                        href={d.link}
+                      >
                         <h6>SEE DETAILS</h6>
                         <FaArrowRight className="text-lg" />
                       </a>

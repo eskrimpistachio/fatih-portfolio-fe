@@ -73,7 +73,7 @@ export default function Experience() {
         {workexp.map((w) => (
           <div
             className="flex flex-col gap-4 md:gap:0 md:flex-row justify-between py-16 border-b-2 border-[#A6A6A6]"
-            id={w.id}
+            key={w.id}
           >
             <div className="flex flex-row gap-2">
               <TiStarburst className="text-lg md:text-xl" />
@@ -87,7 +87,7 @@ export default function Experience() {
               <h3 className="font-medium">{w.role}</h3>
               <ol className="text-[#A6A6A6] list-disc pl-4 flex flex-col gap-2">
                 {w.desc.map((d) => (
-                  <li>{d}</li>
+                  <li key={d.id}>{d}</li>
                 ))}
               </ol>
             </div>
@@ -101,7 +101,7 @@ export default function Experience() {
         {orgexp.map((w) => (
           <div
             className="flex flex-col gap-2 md:gap-0 md:flex-row justify-between py-16 border-b-2 border-[#A6A6A6]"
-            id={w.id}
+            key={w.id}
           >
             <div className="flex flex-row gap-2">
               <TiStarburst className="text-lg md:text-xl" />
@@ -115,7 +115,7 @@ export default function Experience() {
               <h3 className="font-medium">{w.role}</h3>
               <ol className="text-[#A6A6A6] list-disc pl-4 flex flex-col gap-2">
                 {w.desc.map((d) => (
-                  <li>{d}</li>
+                  <li key={d.id}>{d}</li>
                 ))}
               </ol>
             </div>
