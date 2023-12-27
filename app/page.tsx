@@ -48,7 +48,7 @@ export default function Home() {
         <div className="satoshi text-7xl md:text-8xl flex flex-col font-bold gap-2">
           <h1 className="md:w-3/4">HELLO, MY NAME IS</h1>
           <div className="bg-[#FF7A00] p-1 font-normal w-1/2 md:w-1/3 playfair">
-            <h1>FATIHs</h1>
+            <h1>FATIH</h1>
           </div>
           <h1 className="text-6xl md:text-8xl">FULL STACK DEVELOPER</h1>
         </div>
