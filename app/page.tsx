@@ -36,10 +36,10 @@ export default function Home() {
               have done
             </h6>
             <a
-              href="https://drive.google.com/file/d/1RlJ22mPFDR2_4bCpmoWVesHfRS4MnQnP/view?usp=sharing"
+              href="https://drive.google.com/file/d/1GN7-1qRy7CMRPMuKhu1-1aT31s-Yq9cM/view?usp=sharing"
               className="flex flex-row gap-2 playfair hover:font-bold"
             >
-              <h6>DOWNLOAD CV</h6>
+              <h6>DOWNLOAD RESUME</h6>
               <FaArrowRight className="text-lg mt-1" />
             </a>
           </div>
