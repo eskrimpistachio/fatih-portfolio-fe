@@ -3,7 +3,8 @@ import { usePathname } from 'next/navigation';
 import { motion, useMotionValueEvent, useScroll } from 'framer-motion';
 import { React, useState } from 'react';
 import Link from 'next/link';
-import { FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram} from 'react-icons/fa';
+import { SiGmail } from "react-icons/si";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoMdClose } from 'react-icons/io';
 
@@ -85,8 +86,8 @@ export default function ComplexNavbar() {
             >
               <FaInstagram />
             </a>
-            <a className="hover:scale-110" href="https://twitter.com/alfathriz">
-              <FaTwitter />
+            <a className="hover:scale-110" href="mailto:alfatihrizqialfian@gmail.com">
+              <SiGmail />
             </a>
           </div>
 
@@ -165,12 +166,9 @@ export default function ComplexNavbar() {
               >
                 <FaInstagram />
               </a>
-              <a
-                className="hover:scale-110"
-                href="https://twitter.com/alfathriz"
-              >
-                <FaTwitter />
-              </a>
+              <a className="hover:scale-110" href="mailto:alfatihrizqialfian@gmail.com">
+              <SiGmail />
+            </a>
             </div>
           </div>
           {/* For Mobile Responsive */}

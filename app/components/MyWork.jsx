@@ -8,7 +8,7 @@ const data = [
     title: 'INSTANT KIT',
     desc: 'IT infrastructure development services and UI Library website. We can build UI design, illustration design, website development, and database design services. UI Library that we sell is icons, illustrations, website components, and website templates based on subscriptions. ',
     techstack: 'Tech Stack: React.js, Tailwind CSS, Redux, Nest.js, EC2 AWS',
-    link: 'https://instantkit.co/',
+    link: 'https://github.com/InstantKit/fe-InstantKit',
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const data = [
     title: 'HOME INFUSION',
     desc: 'A medical service website that provides medical service calls to patients homes.',
     techstack: 'Tech Stack: Next.js, Typescript, Tailwind CSS, Vercel',
-    link: 'https://homeinfusionclinic.com/',
+    link: 'https://home-infusion.vercel.app/',
   },
   {
     id: 3,

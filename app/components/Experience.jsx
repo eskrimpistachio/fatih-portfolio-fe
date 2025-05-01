@@ -3,6 +3,30 @@ import { TiStarburst } from 'react-icons/ti';
 const workexp = [
   {
     id: 1,
+    startDate: 'FEB 2025',
+    endDate: 'AUG 2025',
+    role: 'Shipping Quality Audit Intern at Toyota Motor Manufacturing Indonesia',
+    desc: [
+      'Conduct requirement analysis by collecting and evaluating user needs to support effective digitalization planning.',
+      'Design and analyze digitalization strategies to optimize business processes and improve operational efficiency.',
+      'Develop digital transformation improvement for process audit to reducing workflows processing time by 50% through automation and system optimization.',
+      'Develop daily and monthly dashboard to help monitor and report shipping quality audit, resulting in accelerating monitoring and reporting processes by 70% compared to manual methods.',
+      'Support digital operational support and knowledge transfer for team member.' 
+    ],
+  },{
+    id: 2,
+    startDate: 'FEB 2024',
+    endDate: 'JUL 2024',
+    role: 'Quality Assurance System Intern at Kawan Kerja',
+    desc: [
+      'Act as a project manager to initiate digitalization and streamline business process within Quality Assurance Department.',
+      'Build RPA (Robotic Process Automation) system to streamline departments workflows impacted to 88% time savings using Power Apps, Power Automate and SharePoint integration than manual process.',
+      'Develop BI (Business Intelligence) using Power BI for product market complaints to help QA Department in reporting, monitoring, decision making and reducing complaints into 1% every month.',
+      'Build a database for regulatory systems that automatically updates monthly.',
+      'Develop a notification system for CAPA (Corrective and Preventive action) audits and evidence of quality assurance that can be sent automatically on a monthly basis.',
+    ],
+  },{
+    id: 1,
     startDate: 'DEC 2022',
     endDate: 'MAR 2023',
     role: 'Frontend Developer Intern at Kawan Kerja',
@@ -21,8 +45,8 @@ const orgexp = [
     endDate: 'DEC 2023',
     role: 'Vice Chief of IT Department at BEM FILKOM UB ',
     desc: [
-      'Led IT Department to build a website for BEM FILKOM UB.',
-      'Create requirements, determine the tech stack, and assign tasks for the IT Department Staff of BEM FILKOM UB.',
+      'Act as Project Manager to led IT department to develop a website platform and database management using SDLC and Agile methodologies for BEM FILKOM UB.',
+      'Collaborate with stakeholder to create requirements, determine the tech stack, and assign tasks for the IT Department Staff of BEM FILKOM UB.',
       'Develop an IT Partnership website to help people build website infrastructure such as UI Design, UI Implementation, and Design database architecture. We increased the number of customers by 5000+ for clients from the healthcare sector and social organizations.',
       'Develop a website for registration needs for events and committees on campus, thereby increasing the number of registrants by 55%+ compared not using the website platform.',
       'Develop an Administrative System website for the administrative needs of BEM FILKOM that contributed 95% to the effectiveness of time and administrative management compared to without using website platform.',
@@ -45,9 +69,9 @@ const orgexp = [
     endDate: 'DEC 2022',
     role: 'Vice Chief of IT Development Department at Hology UB',
     desc: [
-      'Led the IT Development Department to develop and maintain websites for event needs using Scrum and Agile methods.',
-      'Create requirements and choose the tech stack to use and assign task to each IT Development Department staff.',
-      'Develop Hology website for national seminars and competitions with 1000+ users and 3000+ visitors on a monthly basis using React.js, Sass, Tailwind CSS, Node.js, and MySQL.',
+      'Act as a project manager to led the IT Development Department to develop and maintain websites for event needs using Scrum and Agile methods.',
+      'Collaborate to determine requirements and choose the tech stack to use and assign task to each IT Development Department staff.',
+      'Develop Hology website for national seminars and competitions with 1000+ users and 3000+ visitors on a monthly basis using React.js, Sass, Tailwind CSS, Node.js, and SQL.',
     ],
   },
   {

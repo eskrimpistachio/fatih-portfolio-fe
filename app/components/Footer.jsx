@@ -14,7 +14,7 @@ export default function Footer() {
             Linkedin
           </a>
           <a href="https://www.instagram.com/alfatihrizqii/">Instagram</a>
-          <a href="https://twitter.com/alfathriz">Twitter</a>
+          <a href="mailto:alfatihrizqialfian@gmail.com">Email</a>
         </div>
       </div>
     </>
